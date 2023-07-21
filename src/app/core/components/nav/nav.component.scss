@@ -1,0 +1,32 @@
+nav{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #04D612;
+  padding: 5px;
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    li{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-size: 15px;
+      font-weight: bolder;
+
+      i{
+        font-size: 1.2rem;
+      }
+
+    }
+
+  }
+
+
+}

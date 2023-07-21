@@ -1,0 +1,14 @@
+<section>
+  <div class="container">
+    <h4>Destaques</h4>
+    <div class="overflow">
+      <div class="product" *ngFor="let product of products">
+        <img src="{{product.image}}" width="70px">
+        <div>
+          <h5>{{product.name}}</h5>
+          <p>R$ {{product.price}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

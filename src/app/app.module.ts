@@ -12,6 +12,7 @@ import { HeaderComponent } from './modules/homeScreen/components/header/header.c
 import { SearchComponent } from './modules/homeScreen/components/search/search.component';
 import { HighlightsComponent } from './modules/homeScreen/components/highlights/highlights.component';
 import { ProductsComponent } from './modules/homeScreen/components/products/products.component';
+import { OrderComponent } from './modules/orderScreen/components/order/order.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProductsComponent } from './modules/homeScreen/components/products/prod
     HeaderComponent,
     SearchComponent,
     HighlightsComponent,
-    ProductsComponent
+    ProductsComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,

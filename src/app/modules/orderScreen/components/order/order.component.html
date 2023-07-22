@@ -1,0 +1,31 @@
+<section>
+  <div class="container">
+    <div class="table">
+      <h1>Mesa 1</h1>
+    </div>
+    <ng-container *ngFor="let product of products">
+      <div class="products">
+        <div>
+          <h4>{{product.name}}</h4>
+          <p>{{product.description}}</p>
+          <p>R$ {{product.price}}</p>
+        </div>
+        <img src="{{product.image}}" width="90px">
+      </div>
+      <div class="amount">
+        <div>
+          <i class="pi pi-minus-circle"></i>
+          <p>{{product.amount}}</p>
+          <i class="pi pi-plus-circle"></i>
+        </div>
+      </div>
+    </ng-container>
+    <div class="total">
+      <h4>Total - </h4>
+      <p>R$ 0,00</p>
+    </div>
+    <div class="button">
+      <button type="button">Enviar pedido</button>
+    </div>
+  </div>
+</section>

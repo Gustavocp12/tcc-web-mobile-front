@@ -1,3 +1,3 @@
-<!--<app-home-screen></app-home-screen>-->
-<app-order-screen></app-order-screen>
+<app-home-screen *ngIf="componentState['home']"></app-home-screen>
+<app-order-screen *ngIf="componentState['order']"></app-order-screen>
 <app-nav></app-nav>

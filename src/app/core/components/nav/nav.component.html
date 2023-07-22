@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li *ngFor="let itens of navItems">
-          <i class="pi {{itens.icon}}"></i>
+          <i class="pi {{itens.icon}}" (click)="sendComponent(itens.component)"></i>
           {{itens.name}}
         </li>
     </ul>

@@ -13,6 +13,7 @@ import { SearchComponent } from './modules/homeScreen/components/search/search.c
 import { HighlightsComponent } from './modules/homeScreen/components/highlights/highlights.component';
 import { ProductsComponent } from './modules/homeScreen/components/products/products.component';
 import { OrderComponent } from './modules/orderScreen/components/order/order.component';
+import { ModalConfirmOrderComponent } from './modules/orderScreen/components/modal-confirm-order/modal-confirm-order.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OrderComponent } from './modules/orderScreen/components/order/order.com
     SearchComponent,
     HighlightsComponent,
     ProductsComponent,
-    OrderComponent
+    OrderComponent,
+    ModalConfirmOrderComponent
   ],
   imports: [
     BrowserModule,
